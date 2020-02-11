@@ -178,11 +178,11 @@ p {
 
 
 
-.haneda u {
-  /* opacity: 0.3; */
+.haneda h4 {
+  width: 30%;
 }
-.haneda1 li {
-  /* opacity: 0.3; */
+.haneda1 li, h4 {
+  width: 50%;
 }
 
 .haneda1 {
@@ -244,16 +244,20 @@ p {
 
 @media screen and (max-width: 1024px){
   .haneda {
-    height: 40vw;
+    height: 50vw;
+  }
+
+  .haneda1 {
+    height: 30vw;
   }
 
   .hokkaido_haneda {
     float: left;
-    width: 50%;
+    width: 48%;
     background-color: white;
     border-radius: 10px;
     margin-right: 3vw;
-    padding-left: 1vw;
+    padding-left: 2vw;
   }
 
   .tohoku_haneda {
@@ -261,8 +265,13 @@ p {
     width: 40%;
     background-color: white;
     border-radius: 10px;
-    margin-right: 3vw;
-    padding-left: 0;
+    /* margin-right: 3vw; */
+    padding-left: 2vw;
+  }
+
+  .tohoku_haneda li, h4 {
+    width: 50%;
+
   }
 
   .chubu_haneda {
@@ -271,15 +280,15 @@ p {
     background-color: white;
     border-radius: 10px;
     margin-right: 3vw;
-    padding-left: 1vw;
+    padding-left: 2vw;
   }
   .kinki_haneda {
     float: left;
     width: 40%;
     background-color: white;
     border-radius: 10px;
-    margin-right: 3vw;
-    padding-left: 0;
+    /* margin-right: 3vw; */
+    padding-left: 2vw;
   }
   .chugoku_haneda {
     float: left;
@@ -287,14 +296,15 @@ p {
     background-color: white;
     border-radius: 10px;
     margin-right: 3vw;
-    padding-left: 1vw;
+    padding-left: 2vw;
   }
   .shikoku_kanto_haneda {
     float: left;
     width: 40%;
     background-color: white;
     border-radius: 10px;
-    margin-right: 3vw;
-    padding-left: 0;
+    /* margin-right: 3vw; */
+    padding-left: 2vw;
   }
 }
+

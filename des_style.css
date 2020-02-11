@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+}
+
+
+header {
+  /* width: auto; */
+  height: 60px;
+  background-color: #b0c4de;
+}
+
+@media screen and (max-width: 1024px){
+  header {
+    height: 8.4vw;
+  }
+}
+
+.container {
+  padding-left: 15px;
+}
+
+#g_navi ul {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 3%;
+	width: 94%;
+	max-width: 960px;
+  list-style: none;
+}
+	#g_navi ul li {
+		position: relative;
+		float: left;
+		width: 25%;
+	}
+		#g_navi ul li a {
+	 		display: block;
+			padding: 17px 5%;
+			width: 90%;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+		}
+
+main {
+  background: linear-gradient(to right,skyblue ,#bcddeb);
+  padding: 30px 90px ;
+  height: 2000px;
+}
+
+@media screen and (max-width: 1024px){
+  main {
+    padding: 10px 40px;
+    height: 350vw;
+  }
+}
+
+h1 {
+  text-align: center;
+  color:#1d2d33;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px){
+  h1 {
+    font-size: 4vw;
+  }
+}
+
+.top {
+  height: 400px;
+  width: 100%;
+  padding-top: 35px;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+img {
+  float: left;
+  width: 40%;
+  height: auto;
+  marigin: 0 30px 30px 0;
+  opacity: 0.8;
+}
+
+.container {
+  float:left;
+  width: 50%;
+  margin: 0 0 5px 30px;
+  line-height: 65px;
+}
+
+@media screen and (max-width: 1024px){
+  .top {
+    height: 100vw;
+    padding-top: 3vw;
+  }
+
+  img {
+    float: none;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1vw;
+  }
+
+  .container {
+    float: none;
+    font-size: 3vw;
+    width:90%;
+    line-height: 270%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 6.5vw;
+  }
+}
+
+
+p {
+  /* float: left; */
+  font-weight: normal;
+  color: #1d2d33;
+}
+
+.line {
+  clear: both;
+  width: 100%;
+  margin-top: 150px;
+  padding-left: 20px
+  /* margin-bottom: 50px;x */
+}
+
+.tag {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  height: 34px;
+  width: 100%;
+  border-bottom: 5px solid #eb86ce;
+  /* padding-left: px; */
+}
+
+.tag li {
+  float: left;
+  width: 60px;
+  color: #ceeb86;
+  cursor: pointer;
+  background-color: rgba(235,134,206,0.5);
+  text-align: center;
+  border: 3px solid #eb86ce;
+  border-radius: 5px;
+}
+
+
+
+.airport_list  {
+  padding-left: 25px;
+  margin-top: 60px;
+}
+
+.airport_list li {
+  opacity: 0.3;
+
+}
+
+
+
+.haneda {
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+}
+
+
+
+.haneda u {
+  /* opacity: 0.3; */
+}
+.haneda1 li {
+  /* opacity: 0.3; */
+}
+
+.haneda1 {
+  width: 100%;
+  margin: 0 auto;
+  height: 220px;
+}
+
+.hokkaido_haneda {
+  float: left;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 40px;
+  padding-left: 60px;
+}
+
+.tohoku_haneda {
+  float: left;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding-left: 60px;
+}
+
+.chubu_haneda {
+  float: left;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 40px;
+  padding-left: 60px;
+}
+.kinki_haneda {
+  float: left;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding-left: 60px;
+}
+.chugoku_haneda {
+  float: left;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 40px;
+  padding-left: 60px;
+}
+.shikoku_kanto_haneda {
+  float: left;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding-left: 60px;
+}
+
+@media screen and (max-width: 1024px){
+  .haneda {
+    height: 40vw;
+  }
+
+  .hokkaido_haneda {
+    float: left;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 3vw;
+    padding-left: 1vw;
+  }
+
+  .tohoku_haneda {
+    float: left;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 3vw;
+    padding-left: 0;
+  }
+
+  .chubu_haneda {
+    float: left;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 3vw;
+    padding-left: 1vw;
+  }
+  .kinki_haneda {
+    float: left;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 3vw;
+    padding-left: 0;
+  }
+  .chugoku_haneda {
+    float: left;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 3vw;
+    padding-left: 1vw;
+  }
+  .shikoku_kanto_haneda {
+    float: left;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 3vw;
+    padding-left: 0;
+  }
+}
